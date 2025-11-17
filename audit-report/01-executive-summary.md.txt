@@ -1,0 +1,24 @@
+# Executive Summary
+
+## Audit Overview
+This internal IT audit was conducted for the Office of the State Surveyor General, Lagos State to assess cybersecurity posture and compliance with Nigeria Data Protection Regulation (NDPR).
+
+## Critical Findings
+
+| Priority | Finding | Impact |
+|----------|---------|--------|
+| 🔴 Critical | No encryption for citizen land records | High - NDPR Violation |
+| 🔴 Critical | No access controls for survey database | High - Data Integrity Risk |
+| 🟡 High | No disaster recovery for geospatial data | High - Service Disruption |
+
+## Risk Assessment
+- **Overall Risk Score**: 8/10 (High)
+- **NDPR Compliance**: Non-compliant
+- **Data Breach Probability**: High
+
+## Immediate Actions Required
+1. Implement data encryption for all citizen records
+2. Deploy role-based access controls
+3. Establish geospatial data backup procedures
+
+[Back to Main README](../README.md)
