@@ -62,3 +62,20 @@ This implementation supports:
 - **Lagos State Development Plan**: "Making Lagos a 21st Century Economy"
 - **THEMES Agenda**: Technology & Infrastructure pillar
 - **Sustainable Development Goals**: SDG 16 - Peace, justice and strong institutions
+
+## Security Control Relationships
+
+```mermaid
+flowchart TD
+    A[Identify Critical Assets] --> B[Implement Encryption]
+    A --> C[Deploy Access Controls]
+    B --> D[Achieve NDPR Compliance]
+    C --> D
+    C --> E[Reduce Insider Threats]
+    B --> F[Protect Citizen Data]
+    
+    style A fill:#cce5ff
+    style D fill:#ccffcc
+    style F fill:#ccffcc
+```
+*How security controls work together to achieve compliance and protection*

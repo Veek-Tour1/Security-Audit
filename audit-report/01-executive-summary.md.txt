@@ -30,3 +30,20 @@ This internal IT audit was conducted for the Office of the State Surveyor Genera
 - **Land Fraud Vulnerability**: Weak access controls could enable land document forgery
 - **Citizen Trust Erosion**: Data breaches could undermine public confidence in land registry
 - **Economic Impact**: Delays in land transactions affect state revenue and development projects
+
+## Risk Visualization
+
+```mermaid
+graph TD
+    A[Inadequate Controls] --> B[High Risk Score: 8/10]
+    B --> C[Data Breach Probability: High]
+    B --> D[Compliance Fines: High]
+    B --> E[Business Impact: Medium-High]
+    
+    style A fill:#ffcccc
+    style B fill:#ff6666
+    style C fill:#ff9999
+    style D fill:#ff9999
+    style E fill:#ffcc99
+```
+*Visual representation of risk relationships and impacts*
