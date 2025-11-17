@@ -1,24 +1,32 @@
 # Executive Summary
 
 ## Audit Overview
-This internal IT audit was conducted for the Office of the State Surveyor General, Lagos State to assess cybersecurity posture and compliance with Nigeria Data Protection Regulation (NDPR).
+This internal IT audit was conducted for the Office of the State Surveyor General, Alausa, Ikeja. The office handles sensitive land records, survey data, and citizen information critical for Lagos State's "Making Lagos a 21st Century Economy" agenda.
+
+## Local Context Considerations
+
+### Infrastructure Realities
+- **Intermittent Power Supply**: Backup power systems inadequate for server infrastructure
+- **Internet Reliability**: Dependence on single ISP affecting service availability
+- **Legacy Systems**: Windows Server 2008 R2 still in use for land records database
+- **Mobile Workforce**: Field survey teams using personal devices without security controls
+
+### Regulatory Environment
+- **NDPR 2019**: Mandatory compliance for all government data processors
+- **NITDA Framework**: National Information Technology Development Agency guidelines
+- **Lagos State ICT Policy**: State-specific technology implementation standards
+- **Public Service Rules**: Government workforce and procurement constraints
 
 ## Critical Findings
 
-| Priority | Finding | Impact |
-|----------|---------|--------|
-| 🔴 Critical | No encryption for citizen land records | High - NDPR Violation |
-| 🔴 Critical | No access controls for survey database | High - Data Integrity Risk |
-| 🟡 High | No disaster recovery for geospatial data | High - Service Disruption |
+| Priority | Finding | Local Impact |
+|----------|---------|--------------|
+| 🔴 Critical | No encryption for land title records | High - Risk to property rights in rapidly developing state |
+| 🔴 Critical | Single point of internet failure | High - Service disruption affects land transaction timelines |
+| 🟡 High | Field staff using personal phones for sensitive data | Medium - Data leakage risk in BYOD environment |
+| 🟡 High | No UPS backup for database servers | High - Data corruption risk during power outages |
 
-## Risk Assessment
-- **Overall Risk Score**: 8/10 (High)
-- **NDPR Compliance**: Non-compliant
-- **Data Breach Probability**: High
-
-## Immediate Actions Required
-1. Implement data encryption for all citizen records
-2. Deploy role-based access controls
-3. Establish geospatial data backup procedures
-
-[Back to Main README](../README.md)
+## Lagos State Specific Risks
+- **Land Fraud Vulnerability**: Weak access controls could enable land document forgery
+- **Citizen Trust Erosion**: Data breaches could undermine public confidence in land registry
+- **Economic Impact**: Delays in land transactions affect state revenue and development projects

@@ -1,25 +1,53 @@
 # Findings & Analysis
 
-## Controls Assessment
+## Local Infrastructure Assessment
 
 ### ✅ Implemented Controls
 - Basic network segmentation
 - Antivirus software on workstations
 - Physical security (guards, access cards)
 
-### ❌ Missing Critical Controls
-- Data encryption for sensitive records
-- Role-based access control
-- Intrusion detection systems
-- Geospatial data backup systems
+### Power & Connectivity Challenges
+| Issue | Impact | Local Context |
+|-------|--------|---------------|
+| **Intermittent Power** | Database corruption risk | Generator fuel costs impacting operational budget |
+| **Single ISP Dependency** | Service downtime | Heavy reliance on MainOne/MTN with no failover |
+| **Mobile Network Reliance** | Insecure data transmission | Field teams using Glo/Airtel networks for data transfer |
 
-## Compliance Gaps
+### Legacy System Constraints
+- **Windows Server 2008 R2**: Out-of-support OS running land records database
+- **Manual Data Entry**: High error rate in land parcel information
+- **Paper-Based Workflows**: Physical documents not digitized, creating data gaps
 
-### NDPR Requirements
-| Requirement | Status | Gap |
-|-------------|--------|-----|
-| Data Encryption | ❌ Missing | No encryption for citizen PII |
-| Access Controls | ❌ Missing | Universal access to sensitive data |
-| Data Classification | ❌ Missing | No data inventory |
+## Nigerian Regulatory Compliance Gaps
 
-[Back to Main README](../README.md)
+### NDPR 2019 Violations
+| Article | Requirement | Current Status |
+|---------|-------------|----------------|
+| **Article 2.1** | Data Security Measures | ❌ No encryption for citizen data |
+| **Article 2.6** | Data Protection Impact Assessment | ❌ Never conducted |
+| **Article 4.1(3)** | Lawful Processing | ⚠️ Consent mechanisms inadequate |
+
+### NITDA Framework Gaps
+- **Guideline 4.2**: Data classification not implemented
+- **Guideline 6.1**: Incident response plan missing
+- **Guideline 7.3**: Employee awareness training not conducted
+
+### Lagos State ICT Policy Alignment
+| Policy Requirement | Current Status | Gap Analysis |
+|-------------------|----------------|--------------|
+| **Data Center Standards** | ❌ Non-compliant | Server room lacks adequate cooling and fire suppression |
+| **Network Security** | ⚠️ Partial | Basic firewall but no intrusion detection |
+| **Disaster Recovery** | ❌ Missing | No backup strategy for critical land records |
+
+## Local Threat Landscape
+
+### Nigeria-Specific Cyber Threats
+- **Social Engineering**: Targeting government staff for land fraud
+- **Ransomware**: High risk to unprotected land records database
+- **Insider Threats**: Underpaid staff vulnerable to bribes for land data access
+
+### Physical Security Considerations
+- **Location**: Alausa, Ikeja - high-density government area
+- **Access Control**: Shared building with multiple ministries
+- **Document Storage**: Physical land records vulnerable to theft/damage

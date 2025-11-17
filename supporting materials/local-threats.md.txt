@@ -1,0 +1,30 @@
+# Nigeria-Specific Threat Landscape
+
+## Common Attack Vectors in Nigerian Public Sector
+
+### Social Engineering
+- ** impersonation**: Attackers posing as senior government officials
+- **Phishing**: Targeting civil servants with fake procurement opportunities
+- **Bribery**: Insider threats due to economic pressures
+
+### Technical Threats
+- **Ransomware**: Targeting poorly protected government databases
+- **Data Theft**: Land records and citizen data being sold on dark web
+- **System Compromise**: Weak authentication allowing unauthorized access
+
+### Physical Security Concerns
+- **Document Theft**: Physical land records being stolen for fraud
+- **Equipment Theft**: Computers and servers in inadequately secured facilities
+- **Unauthorized Access**: Shared office spaces with poor access control
+
+## Local Incident Response Considerations
+
+### Communication Protocols
+- **Internal**: Must follow civil service communication channels
+- **External**: Coordination with Nigeria Computer Emergency Response Team (ngCERT)
+- **Public Disclosure**: Must align with government public relations guidelines
+
+### Legal Requirements
+- **NDPR Breach Notification**: 72-hour reporting requirement to NITDA
+- **Internal Reporting**: Escalation to Permanent Secretary and Head of Service
+- **Law Enforcement**: Involvement of Nigeria Police Force Cyber Crime Unit
